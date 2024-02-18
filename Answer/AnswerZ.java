@@ -1,8 +1,5 @@
 package Answer;
 
-// public class AnswerZ {
-
-// }
 class Answer {
     public int countNTriangle(int n) {
         if (n < 1)
@@ -15,20 +12,19 @@ class Answer {
     }
 }
 
-public class Answer.Printer
-{
+// public class Answer.Printer {
 
-    public static void main(String[] args) {
-        int n = 0;
+// public static void main(String[] args) {
+// int n = 0;
 
-        if (args.length == 0) {
-            n = 4;
-        } else {
-            n = Integer.parseInt(args[0]);
-        }
+// if (args.length == 0) {
+// n = 4;
+// } else {
+// n = Integer.parseInt(args[0]);
+// }
 
-        Answer ans = new Answer();
-        int itresume_res = ans.countNTriangle(n);
-        System.out.println(itresume_res);
-    }
-}
+// Answer ans = new Answer();
+// int itresume_res = ans.countNTriangle(n);
+// System.out.println(itresume_res);
+// }
+// }
